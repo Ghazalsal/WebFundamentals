@@ -1,0 +1,17 @@
+$(document).ready(function(){
+    $(".zero").click(function(){
+        $(".zero").attr("src","cat0.png");
+    });
+    $(".first").click(function(){
+        $(".first").attr("src","cat1.png");
+    });
+    $(".second").click(function(){
+        $(".second").attr("src","cat2.png");
+    });
+    $(".third").click(function(){
+        $(".third").attr("src","cat3.png");
+    });
+    $(".fourth").click(function(){
+        $(".fourth").attr("src","cat4.png");
+    });
+});

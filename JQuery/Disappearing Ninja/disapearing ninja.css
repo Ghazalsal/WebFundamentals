@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color:wheat;
+    width: 600px;
+    margin: 0px auto;
+}
+.ninja{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}

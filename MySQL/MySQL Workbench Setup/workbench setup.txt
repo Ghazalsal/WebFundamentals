@@ -1,0 +1,12 @@
+select orders.name
+from order
+
+update orders
+set price =3200
+where order.id = 3;
+
+insert into customers (id,name)
+values(5,"suzan");
+
+delete from customers
+where id= 4;

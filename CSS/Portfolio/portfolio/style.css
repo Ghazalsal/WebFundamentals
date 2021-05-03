@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 900px;
+    background-color: white;
+    height: 1000px;
+    margin: 0px auto;
+
+}
+.header{
+    background-color: rgb(206, 202, 194);
+    padding: 10px;
+    width: auto;
+    display: flex;
+    background-image: linear-gradient(silver,white,silver);
+}
+.name{
+    width: auto;
+    color: black;
+    flex: 1;
+    text-decoration: none;
+}
+h1 , h2 {
+    color: black;
+    text-align: start;
+    display: block;
+    padding: 10px;
+    font-family: fantasy;
+    
+}
+.main{
+    background-color: blueviolet;
+    background-image: radial-gradient(rgb(156, 109, 199),grey, rgb(156, 109, 199));
+    padding: 10px;    
+    width: auto;
+}
+.content{
+    background-color: lightgrey;
+    
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 0px 0px 10px ;
+    height: 280px;
+    width: 530px;
+    vertical-align: top;
+}
+.content h3{
+    display: block;
+    width: auto;
+    background-color: rgb(148, 156, 165);
+    background-image: radial-gradient(grey,lightgrey,grey);
+    height: 30px;
+    margin: 0;
+    padding: 10px;
+    color: white;
+}
+.middle{
+    background-color: blueviolet;
+    background-image: radial-gradient(rgb(156, 109, 199),grey, rgb(156, 109, 199));
+    display: block;
+    align-items: center;
+    padding: 0px;
+}
+.box{
+    display: flex;
+    width: 910px;
+    padding: 0px;
+}
+.box1{
+    background-color: white;
+    flex: 1;
+    padding: 0;
+    margin: 10px;
+    max-width: 30%;
+    width: auto;
+    text-orientation: initial;
+}
+.info1{
+    
+    color: white;
+    background-image: radial-gradient(rgb(156, 147, 147),rgb(139, 139, 139),rgb(88, 88, 88));
+    background-color: rgb(124, 106, 106);
+    width: auto;
+    height: 25px;
+    padding:10px;
+    margin: 0;
+}
+.box2{
+    background-color: white;
+    flex: 1;
+    padding: 0;
+    max-width: 30%;
+    margin: 10px;
+    width: auto;
+    text-orientation: initial;
+}
+.info2{
+    
+    color: white;
+    background-image: radial-gradient(rgb(156, 147, 147),rgb(139, 139, 139),rgb(88, 88, 88));
+    background-color: rgb(124, 106, 106);
+    width: auto;
+    height: 25px;
+    padding: 10px;
+    margin: 0;
+}.box3{
+    background-color: white;
+    flex: 1;
+    padding: 0;
+    margin: 10px;
+    width: auto;
+    max-width: 30%;
+    text-orientation: initial;
+}
+.info3{
+    background-image: radial-gradient(rgb(156, 147, 147),rgb(139, 139, 139),rgb(88, 88, 88));
+    height: 25px;
+    color: white;
+    background-color: rgb(124, 106, 106);
+    width: auto;
+    padding: 10px;
+    margin: 0;
+}
+.para{
+    margin: 5px;
+    padding: 5px;
+    overflow: scroll;
+    
+  
+}
+.tech{
+    height: 25px;
+    color: white;
+    background-color: rgb(124, 106, 106);
+    width: auto;
+    background-image: radial-gradient(rgb(156, 147, 147),rgb(139, 139, 139),rgb(88, 88, 88));
+    padding: 10px;
+    margin: 0;
+}
+.img{
+    display: inline-block;
+    margin: 5px;
+}
+.button{
+    width: fit-content;
+    height: fit-content;
+    background-color:rgb(120, 138, 127);
+    border-radius: 20px;
+    color: white;
+    margin-left: 35%;
+    padding: 10px;
+}
+
+.footer{
+    background-color: white;
+    width: auto;   
+}
+.f1{
+    text-align: center;
+}
+.f2{
+    text-align: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+    display: inline;
+    margin-left: 35%;
+
+}
+.img1{
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.img1 p{
+    display: inline;
+}
